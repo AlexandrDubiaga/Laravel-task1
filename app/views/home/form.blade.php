@@ -2,8 +2,10 @@
 <body>
 Hello {{{$name}}}
 <form method="POST" action="">
-<input  type="text" name="name" />
-<input  type="password" name="name" />
+<p>name</p><br>
+<input  type="text" name="name" /><br>
+<p>message</p><br>
+<textarea  type="text" name="area" />
 <input type="submit" val="go">
 </form>
 </body>
