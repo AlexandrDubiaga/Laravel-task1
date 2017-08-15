@@ -5,13 +5,13 @@ class HomeController extends BaseController {
 	{
 		return View::make('home.index',array('variable'=>$variable));
 	}
-	public function getHref()
+	public function getAction()
 	{
-			return View::make('home.actions');
+			return View::make('home.form');
 	}
 	public function showActions($var=null)
 	{
-			return View::make('home.actions',array('var'=>$var));
+			return View::make('home.form',array('var'=>$var));
 	}
 
 }
