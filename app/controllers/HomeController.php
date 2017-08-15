@@ -9,9 +9,9 @@ class HomeController extends BaseController {
 	{
 			return View::make('home.form');
 	}
-	public function showActions($var=null)
+	public function showActions()
 	{
-			return View::make('home.form',array('var'=>$var));
+			return View::make('home.form');
 	}
 
 }
