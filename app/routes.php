@@ -5,6 +5,6 @@ Route::get('/', function()
 	return Redirect::to('/home');
 });
 Route::get('/home/{variable?}','HomeController@showLinks');
-Route::get('/actions/{var?}','HomeController@showActions');
-Route::controller('articles','HomeController');
+Route::get('/form/{var?}','HomeController@showActions');
+Route::controller('formAct','HomeController');
 
