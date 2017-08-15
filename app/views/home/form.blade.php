@@ -1,7 +1,7 @@
 <html>
 <body>
 Hello {{{$name}}}
-<form method="POST" action="{{URL::to('home.index')}}">
+<form method="POST" action="{{URL::to('home')}}">
 <p>name</p>
 <input  type="text" name="name" /><br>
 <p>message</p>
