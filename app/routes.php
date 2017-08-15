@@ -4,5 +4,5 @@ Route::get('/', function()
 {
 	return Redirect::to('/home');
 });
-Route::get('/home/{name?}','HomeController@showLinks');
+Route::get('/home/{variable?}','HomeController@showLinks');
 
