@@ -6,5 +6,5 @@ Route::get('/', function()
 });
 Route::get('/home/{variable?}','HomeController@showLinks');
 Route::get('/home/{var?}','HomeController@showActions');
-Route::controller('articles','HelloController');
+Route::controller('articles','HomeController');
 
