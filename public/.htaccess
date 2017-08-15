@@ -5,7 +5,7 @@
     </IfModule>
 	DirectoryIndex index.php
     RewriteEngine On
-	RewriteBase /~user2/hello
+	RewriteBase /~user2/task1
     # Redirect Trailing Slashes...
     RewriteRule ^(.*)/$ /$1 [L,R=301]
 
