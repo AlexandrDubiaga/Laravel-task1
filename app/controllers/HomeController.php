@@ -5,7 +5,7 @@ class HomeController extends BaseController {
 	{
 		return View::make('home.index',array('variable'=>$variable));
 	}
-	public function getForm()
+	public function showForm()
 	{
 			return View::make('home.form');
 	}
