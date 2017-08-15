@@ -1,8 +1,8 @@
 <?php
 
-Route::get('/', function()
+/*Route::get('/', function()
 {
 	return Redirect::to('/home');
-});
+});*/
 Route::get('/home/{variable?}','HomeController@showLinks');
 
