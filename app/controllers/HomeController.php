@@ -7,11 +7,11 @@ class HomeController extends BaseController {
 	}
 	public function getAction()
 	{
-			return View::make('hello.actions');
+			return View::make('home.actions');
 	}
 	public function showActions($var=null)
 	{
-			return View::make('hello.actions',array('var'=>$var));
+			return View::make('home.actions',array('var'=>$var));
 	}
 
 }
