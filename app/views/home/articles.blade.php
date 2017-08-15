@@ -1,5 +1,5 @@
 <html>
 @foreach($link as $l)
-	<a href="">Link {{{$i}}}</a>
+	<a href="">Link {{{$l}}}</a>
 		@endforeach
 </html>
