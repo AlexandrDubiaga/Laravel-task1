@@ -27,7 +27,7 @@ class HomeController extends BaseController {
 	}
 	public function getLink()
 	{
-			return View::make('home.articles',array('link'=>array(1,2,3,4,5,6,7,8,9,10)));
+			return View::make('home.articles');
 	}
 
 }
