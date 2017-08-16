@@ -13,7 +13,7 @@ class HomeController extends BaseController {
 	{
 			if (Input::has('name') && Input::has('area') )
 			{
-				Redirect::to('home.Thank',array('name'=>$name));
+				return Redirect::to('home.Thank',array('name'=>$name));
 			}
 	}
 	public function showArticles()
