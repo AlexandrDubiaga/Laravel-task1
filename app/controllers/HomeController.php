@@ -9,9 +9,12 @@ class HomeController extends BaseController {
 	{
 			return View::make('home.form',array('name'=>$user));
 	}
-	public function postForm($user = 'user')
+	public function postForm($name='user')
 	{
-			echo "POST";
+			if (Input::has('name') && Input::has('area') )
+			{
+				redirect::to('home.Thank',array('name'=>$name));
+			}
 	}
 	public function showArticles()
 	{
