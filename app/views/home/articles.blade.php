@@ -1,5 +1,5 @@
 <html>
 @foreach($link as $l)
-	<a href="">Link {{{$l}}}</a>
+	<div> {{ HTML::lint(/article/$l)}} <p>LINK</p> </div>
 		@endforeach
 </html>
