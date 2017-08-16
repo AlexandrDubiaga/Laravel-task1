@@ -8,4 +8,6 @@ Route::get('/home/{variable?}','HomeController@showLinks');
 Route::get('/form/home/{variable?}','HomeController@showLinks');
 Route::get('/form/{name?}','HomeController@showForm');
 Route::get('/articles','HomeController@showArticles');
+Route::get('/form','HomeController@getForm');
+Route::post('/form','HomeController@postForm');
 
