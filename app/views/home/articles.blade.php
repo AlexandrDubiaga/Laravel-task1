@@ -1,5 +1,5 @@
 <html>
 @foreach($link as $l)
-	<div> {{ HTML::link(/articles/$l)}} <p>LINK</p> </div>
+	<div> {{ URL::to('articles' $l)}} <p>LINK</p> </div>
 		@endforeach
 </html>
