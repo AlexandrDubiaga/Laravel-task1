@@ -5,9 +5,13 @@ class HomeController extends BaseController {
 	{
 		return View::make('home.index',array('variable'=>$variable));
 	}
-	public function showForm($user = 'user')
+	public function getForm($user = 'user')
 	{
 			return View::make('home.form',array('name'=>$user));
+	}
+	public function postForm($user = 'user')
+	{
+			echo "POST";
 	}
 	public function showArticles()
 	{
