@@ -9,4 +9,5 @@ Route::get('/form/home/{variable?}','HomeController@showLinks');
 Route::get('/form/{name?}','HomeController@getForm');
 Route::get('/articles','HomeController@showArticles');
 Route::post('/form','HomeController@postForm');
+Route::post('/Thank','HomeController@postForm');
 
