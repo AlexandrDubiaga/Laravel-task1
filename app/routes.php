@@ -10,5 +10,6 @@ Route::get('/form/{name?}','HomeController@getForm');
 Route::get('/articles','HomeController@showArticles');
 Route::post('/form','HomeController@postForm');
 Route::get('/Thank/{name?}','HomeController@getViewThank');
+Route::get('/article/{link}','HomeController@getLink');
 
 
