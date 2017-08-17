@@ -17,7 +17,7 @@ class HomeController extends BaseController {
 			}
 		else
 		{
-			return Redirect::to('home.form');
+			return Redirect::to('form');
 		}
 	}
 	public function getViewThank($name = 'user')
