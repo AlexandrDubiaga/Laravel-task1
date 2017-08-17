@@ -1,6 +1,7 @@
 <?php
 
-class HomeController extends BaseController {
+class HomeController extends BaseController
+{
 	public function showLinks($variable=null)
 	{
 		return View::make('home.index',array('variable'=>$variable));
@@ -11,10 +12,10 @@ class HomeController extends BaseController {
 	}
 	public function postForm()
 	{
-			if (Input::has('name') && Input::has('area') )
-			{
-				return Redirect::to('Thank');
-			}
+		if (Input::has('name') && Input::has('area') )
+		{
+			return Redirect::to('Thank');
+		}
 		else
 		{
 			return Redirect::to('form');
