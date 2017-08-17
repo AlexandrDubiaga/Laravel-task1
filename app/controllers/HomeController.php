@@ -15,6 +15,10 @@ class HomeController extends BaseController {
 			{
 				return Redirect::to('Thank');
 			}
+		else
+		{
+			return Redirect::to('home.form');
+		}
 	}
 	public function getViewThank($name = 'user')
 	{
