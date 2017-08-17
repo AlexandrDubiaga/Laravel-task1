@@ -11,5 +11,6 @@ Route::get('/articles','HomeController@showArticles');
 Route::post('/form','HomeController@postForm');
 Route::get('/Thank/{name?}','HomeController@getViewThank');
 Route::get('/oneArticle/{link}','HomeController@getLink');
+Route::get('/about','HomeController@getAbout');
 
 
